@@ -483,6 +483,9 @@ void menu(int option)
     {
         glutIdleFunc(NULL);
     }
+    else if(option==14){
+        value=-1;
+    }
     else
     {
         value = option;
@@ -506,8 +509,9 @@ void createMenu(void)
     glutAddMenuEntry("NEON", 10);
     mainmenu = glutCreateMenu(menu);
     glutAddSubMenu("SELECT THE ELEMENT", submenu);
-    glutAddMenuEntry("SIMULATE", 11);
+    glutAddMenuEntry("START SIMULATION", 11);
     glutAddMenuEntry("STOP SIMULATION", 12);
+    glutAddMenuEntry("GOTO HOME SCREEN",14);
     glutAddMenuEntry("EXIT", 13);
 
     glutAttachMenu(GLUT_RIGHT_BUTTON);
