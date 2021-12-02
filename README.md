@@ -3,7 +3,7 @@ This repo contains all the files used in CG Mini Project on topic "atom simulati
 
 # To execute follow
 1. install g++ compiler & glut library
-2. use g++ atomsimu.c -lGL -lGLU -lglut commond to compile
+2. use g++ atomsimu.c -lGL -lGLU -lglut commond to compile (If using Windows OS use atom-windows.c file)
 3. use ./a.out to see the output
 
 # Screenshots
